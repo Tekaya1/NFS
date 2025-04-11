@@ -102,7 +102,7 @@ vim /etc/auto.ticR
 
 **Utilisateur :** `rayen`, **UID :** `3564`, **Home :** `/server/rayen`
 ```bash
-useradd -u 3564 -d /server/rayen -m rayen
+useradd -u 3564 -d /server/rayen -b rayen
 
 vim /etc/exports
 # /server/rayen *(rw,no_root_squash)
